@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>stake</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 23.9999 0 23.9999 23.9995 0 23.9995"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IDO-背景纯色渐变-Copy-4" transform="translate(-39.000000, -524.000000)">
+            <g id="Group-18">
+                <g id="Group-68" transform="translate(39.000000, 524.000000)">
+                    <rect id="Rectangle-Copy-7" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="29" height="29"></rect>
+                    <g id="Group-8" transform="translate(3.000000, 3.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M11.9999,-0.0005 C5.3729,-0.0005 -0.0001,5.3725 -0.0001,11.9995 C-0.0001,18.6275 5.3729,23.9995 11.9999,23.9995 C18.6279,23.9995 23.9999,18.6275 23.9999,11.9995 C23.9999,5.3725 18.6279,-0.0005 11.9999,-0.0005 M11.9999,1.9995 C17.5139,1.9995 21.9999,6.4855 21.9999,11.9995 C21.9999,17.5145 17.5139,21.9995 11.9999,21.9995 C6.4859,21.9995 1.9999,17.5145 1.9999,11.9995 C1.9999,6.4855 6.4859,1.9995 11.9999,1.9995" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                        </g>
+                        <polygon id="Fill-4" fill="#FFFFFF" points="16.9999 10.7017 6.9999 10.7017 6.9999 9.6547 11.9999 5.9997 11.9999 8.3507 16.9999 8.3507"></polygon>
+                        <polygon id="Fill-6" fill="#FFFFFF" points="6.9999 13.2984 16.9999 13.2984 16.9999 14.3454 11.9999 17.9994 11.9999 15.6494 6.9999 15.6494"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

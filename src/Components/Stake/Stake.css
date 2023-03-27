@@ -1,0 +1,382 @@
+
+
+.wrap{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 5vmin;
+    
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2vmin;
+    padding: 1.4em;
+    align-items: center;
+}
+
+.header button{
+    display: flex;
+    background: hsla(0,0%,100%,.2);
+    box-shadow: 0 0 10px rgb(44 39 109 / 10%);
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: max(calc(14 * var(--res)), 11px);
+    font-weight: 700;
+    width: max(calc(122 * var(--res)), 150px);
+    min-width: 80px;
+    height: max(calc(35 * var(--res)), 46px);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.stake-card{
+
+    background: rgba(36,39,41,.1);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    max-width: 1200px;
+    min-height: 500px;
+
+}
+
+.stake-title{
+
+    width: 100%;
+    height: 20%;
+    color: #fff1e5;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.4vmin;
+    padding: 2em;
+}
+
+.stake-title h1{
+    font-size: max(calc(17 * var(--res)), 18px);
+}
+
+.stake-title p{
+    font-size: max(calc(12 * var(--res)), 13px);
+    font-weight: 600;
+}
+
+
+.stake-infos{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bubble-one{
+    width: 33%;
+    height: 100%;
+    color: #fff1e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vmin;
+    justify-content: center;
+}
+
+.bubble-one h1{
+    font-size: max(calc(17 * var(--res)), 14px);
+    font-weight: 400;
+
+}
+
+.bubble-one h2{
+    
+    font-size: max(calc(20 * var(--res)), 16px);
+}
+
+
+.unstake-stake{
+
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff1e5;
+    gap: 2vmin;
+}
+
+.unstake-stake h2{
+    font-size: max(calc(14 * var(--res)), 12px);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.amount-input{
+    display: flex;
+    width: 100%;
+
+    height: 15%;
+    align-items: center;
+}
+
+.item-1{
+    display: flex;
+    
+    width: 70%;
+    height: 70%;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.max {
+  height: 100%;
+  position: absolute;
+  right: 2em;
+  top: 85%;
+  transform: translateY(-50%);
+}
+
+.max h3{
+
+    color: #fff1e5d6;
+    font-size: max(calc(18 * var(--res)), 10px);
+}
+
+
+.item-1 input{
+
+    background: hsla(0,0%,100%,.2);
+    box-shadow: 0 0 10px rgb(44 39 109 / 10%);
+    width: 95%;
+    height: 100%;
+    font-size: max(calc(14 * var(--res)), 12px);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid hsla(0,0%,100%,.2);
+    
+}
+
+.item-1 input::placeholder {
+    color: #fff1e5a7;
+    text-indent: 1em;
+}
+
+.item-2{
+    display: flex;
+    width: 30%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-2 button{
+    background: hsla(0,0%,100%,.2);
+    box-shadow: 0 0 10px rgb(44 39 109 / 10%);
+    width: 90%;
+    height: 100%;
+    font-size: max(calc(18 * var(--res)), 14px);
+    color: #fff1e5;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+
+.paragraph{
+    color: #fff1e5cc;
+    width: 90%;
+    justify-content: center;
+    height: 12%;
+    text-align: center;
+}
+
+
+.paragraph p{
+    font-size: max(calc(12 * var(--res)), 8px);
+
+}
+
+
+
+
+.list-final{
+    height: 25%;
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-element{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    color: #fff1e5;
+    justify-content: space-between;
+}
+
+.row-element h5{
+    font-size: max(calc(10 * var(--res)), 12px);
+}
+
+@media screen and (max-width:395px) {
+
+    .wrap{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        gap: 5vmin;
+        
+    }
+    
+    .header{
+        height: 10%;
+        width: 100%;
+        min-height: 100px;
+    
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2vmin;
+        padding: 1.4em;
+        align-items: center;
+    }
+    
+    .header button{
+        display: flex;
+        background: hsla(0,0%,100%,.2);
+        box-shadow: 0 0 10px rgb(44 39 109 / 10%);
+        cursor: pointer;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        font-size: max(calc(14 * var(--res)), 11px);
+        font-weight: 700;
+        width: max(calc(122 * var(--res)), 150px);
+        min-width: 80px;
+        height: max(calc(35 * var(--res)), 46px);
+        transition: transform 0.2s ease-in-out;
+    }
+    
+
+    
+    .stake-card{
+    
+        background: rgba(36,39,41,.1);
+        -webkit-backdrop-filter: blur(40px);
+        backdrop-filter: blur(40px);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        max-width: 1200px;
+        min-height: 500px;
+    
+    }
+    
+    .stake-infos{
+        width: 100%;
+        height: 20%;
+    
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bubble-one h1{
+        font-size: max(calc(24 * var(--res)), 15px);
+        font-weight: 400;
+
+    
+    }
+    
+    .bubble-one h2{
+        
+        font-size: max(calc(27 * var(--res)), 18px);
+    }
+    
+    
+    .stake-title{
+
+        width: 100%;
+        height: 20%;
+        color: #fff1e5;
+        display: flex;
+        flex-direction: column;
+    
+        gap: 0.4vmin;
+        padding: 2em;
+    }
+
+    .unstake-stake{
+
+        height: 5%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #fff1e5;
+        gap: 2vmin;
+    }
+    
+    
+    .header button{
+        display: flex;
+        background: hsla(0,0%,100%,.2);
+        box-shadow: 0 0 10px rgb(44 39 109 / 10%);
+        cursor: pointer;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        font-size: max(calc(14 * var(--res)), 17px);
+        font-weight: 700;
+        width: max(calc(122 * var(--res)), 150px);
+        min-width: 80px;
+        height: max(calc(35 * var(--res)), 46px);
+        transition: transform 0.2s ease-in-out;
+    }
+
+}

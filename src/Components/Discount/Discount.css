@@ -1,0 +1,24 @@
+.usdc-title img{
+  width: max(calc(30 * var(--res)), 30px);
+}
+
+.usdc-title{
+
+    width: 100%;
+    height: 20%;
+    color: #fff1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    padding: 2em;
+}
+
+.usdc-title h1{
+    font-size: max(calc(17 * var(--res)), 18px);
+}
+
+.usdc-title p{
+    font-size: max(calc(12 * var(--res)), 13px);
+    font-weight: 600;
+}

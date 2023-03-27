@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Docs</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IDO-背景纯色渐变-Copy-4" transform="translate(-45.000000, -335.000000)">
+            <g id="Group-18">
+                <g id="Group-35" transform="translate(45.000000, 335.000000)">
+                    <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="29" height="29"></rect>
+                    <g id="Group-9" transform="translate(3.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M19.8474,20.0004 C20.4787821,20.0004 20.9994,19.4794484 20.9994,18.8474 L20.9994,3.1524 C20.9994,2.52126815 20.4786987,2.0004 19.8474,2.0004 L4.1534,2.0004 C3.52085187,2.0004 2.9994,2.52151793 2.9994,3.1524 L2.9994,18.8474 C2.9994,19.4791987 3.52076826,20.0004 4.1534,20.0004 L19.8474,20.0004 Z M19.8474,22.0004 L4.1534,22.0004 C2.41634212,22.0004 0.9994,20.5839116 0.9994,18.8474 L0.9994,3.1524 C0.9994,1.41666151 2.41656908,0.000400000001 4.1534,0.000400000001 L19.8474,0.000400000001 C21.5834117,0.000400000001 22.9994,1.4168421 22.9994,3.1524 L22.9994,18.8474 C22.9994,20.5837311 21.5836386,22.0004 19.8474,22.0004 Z" id="Stroke-1"></path>
+                        <polygon id="Stroke-3" points="5.9997 12.0004 5.9997 10.0004 17.9997 10.0004 17.9997 12.0004"></polygon>
+                        <polygon id="Stroke-5" points="5.9997 8.0004 5.9997 6.0004 11.8737 6.0004 11.8737 8.0004"></polygon>
+                        <polygon id="Stroke-7" points="5.9997 16.0004 5.9997 14.0004 17.9997 14.0004 17.9997 16.0004"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

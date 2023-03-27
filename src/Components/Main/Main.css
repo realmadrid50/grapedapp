@@ -1,0 +1,118 @@
+
+.wrap{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 2vmin;
+    
+}
+
+
+
+.card-wrapper{
+
+ 
+    width: 90%;
+    height: 20%;
+
+    background: rgba(36,39,41,.1);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+
+    display: flex;
+
+}
+
+.bubble{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    color: #fff1e5;
+    gap: 1vmin;
+}
+
+.bubble h2{
+    font-size: max(calc(15 * var(--res)), 8px);
+}
+
+.bubble h1{
+    font-size: max(calc(20 * var(--res)), 18px);
+    font-weight: 600;
+}
+
+.second-card-wrapper{
+
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-bubble{
+    width: 48%;
+    background: rgba(36,39,41,.1);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff1e5;
+    align-items: center;
+    gap: 1vmin;
+    flex-direction: column;
+}
+
+.card-bubble h1{
+    font-size: max(calc(20 * var(--res)), 18px);
+    font-weight: 600;
+}
+
+.card-bubble h2{
+    font-size: max(calc(18 * var(--res)), 13px);
+}
+
+
+
+.card-tetris{
+    width: 30%;
+    background: rgba(36,39,41,.1);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff1e5;
+    align-items: center;
+    gap: 1vmin;
+    flex-direction: column;
+}
+
+.card-tetris h1{
+    font-size: max(calc(22 * var(--res)), 18px);
+    font-weight: 600;
+}
+
+.card-tetris h2{
+    font-size: max(calc(14 * var(--res)), 13px);
+}
+
+
+@media screen and (max-width:500px) {
+
+    .card-tetris h2{
+        font-size: max(calc(12 * var(--res)), 11px);
+        font-weight: 600;
+    }
+    
+}

@@ -17,13 +17,13 @@ function Main() {
                 <div className="card-wrapper">
 
                     <div className='bubble'>
-                        <h2>zKronos Lifetime</h2>
+                        <h2>LEVIA Lifetime</h2>
                         <h1>0 Days</h1>
                     </div>
 
                     
                     <div className='bubble'>
-                        <h2>zKronos Price</h2>
+                        <h2>LEVIA Price</h2>
                         <h1>$0</h1>
                     </div>
 

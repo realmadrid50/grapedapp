@@ -57,7 +57,7 @@ function Stake() {
         </div>
         <div className="stake-card">
           <div className="stake-title">
-            <h1>zKronos Staking (3,3)</h1>
+            <h1>LEVIA Staking (3,3)</h1>
             <p>
               You can stake or unstake whenever you want. But you will not get
               any rebasing rewards. The rewards are canceled because of the
@@ -76,7 +76,7 @@ function Stake() {
             </div>
             <div className="bubble-one">
               <h1>Current Index</h1>
-              <h2>- zKronos</h2>
+              <h2>- LEVIA</h2>
             </div>
           </div>
 
@@ -107,15 +107,15 @@ function Stake() {
           <div className="list-final">
             <div className="row-element">
               <h5>Your Balance</h5>
-              <h5>0 zKronos</h5>
+              <h5>0 LEVIA</h5>
             </div>
             <div className="row-element">
               <h5>Your Staked Balance</h5>
-              <h5>0 szKronos</h5>
+              <h5>0 LEVIA</h5>
             </div>
             <div className="row-element">
               <h5>Next Reward Amount</h5>
-              <h5>0 szKronos</h5>
+              <h5>0 LEVIA</h5>
             </div>
             <div className="row-element">
               <h5>ROI 5-Day Rate</h5>

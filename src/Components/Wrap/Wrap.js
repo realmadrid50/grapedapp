@@ -17,7 +17,7 @@ function Wrap(){
                 <div className="stake-wrap">
 
                     <div className="stake-title">
-                        <h1>Wrap / Unswrap (wszKronos) </h1>
+                        <h1>Wrap / Unswrap (LEVIA) </h1>
                         <p>You can always wrap or unwrap whenever you want. </p>
                         </div>
 
@@ -31,7 +31,7 @@ function Wrap(){
                             <h2>0 zKronos</h2>
                         </div>
                         <div className="bubble-one">
-                            <h1>wszKronos Price</h1>
+                            <h1>LEVIA Price</h1>
                             <h2>$0</h2>
                         </div>
 
@@ -58,11 +58,11 @@ function Wrap(){
                     <div className="list-final">
                         <div className="row-element">
                             <h5>Wrappable Balance</h5>
-                            <h5>0 zKronos</h5>
+                            <h5>0 LEVIA</h5>
                         </div>
                         <div className="row-element">
                             <h5>Unwrappable  Balance</h5>
-                            <h5>0 szKronos</h5>
+                            <h5>0 sLEVIA</h5>
                         </div>
                     </div>
 

@@ -61,7 +61,7 @@ function Discount(){
                         </div>
                         <div className="row-element">
                             <h5>Your Will Get</h5>
-                            <h5>0 zKronos</h5>
+                            <h5>0 LEVIA</h5>
                         </div>
                         <div className="row-element">
                             <h5>Vesting Term</h5>
@@ -69,7 +69,7 @@ function Discount(){
                         </div>
                         <div className="row-element">
                             <h5>Minimum Purchase</h5>
-                            <h5>0 zKronos</h5>
+                            <h5>0 LEVIA</h5>
                         </div>
                         <div className="row-element">
                             <h5>ROI 5-Day Rate</h5>

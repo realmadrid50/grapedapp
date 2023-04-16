@@ -1,5 +1,5 @@
 import './Navbar.css'
-import Logo from '../../Media/Logo.svg'
+import Logo from '../../Media/logo.jpg'
 import Dash from '../../Media/bond.svg'
 import Stake from '../../Media/stake.svg'
 import Wrap from '../../Media/wrap.svg'
@@ -47,7 +47,7 @@ function Navbar() {
                         <a href="#">USDC</a>
                     </li>
                     <li>
-                        <Link to="/usdc_snow_lp">zKronos-USDC LP</Link>
+                        <Link to="/usdc_snow_lp">LEVIA-USDC LP</Link>
 
                     </li>
                 </ul>   

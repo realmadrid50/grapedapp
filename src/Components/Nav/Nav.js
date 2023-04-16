@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Logo from '../../Media/Logo.svg'
+import Logo from '../../Media/logo.jpg'
 import Dash from '../../Media/bond.svg'
 import Stake from '../../Media/stake.svg'
 import Wrap from '../../Media/wrap.svg'

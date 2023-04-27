@@ -17,8 +17,6 @@ function Discount2(){
                 <div className="stake-card">
 
                     <div className="lp-title">
-                        <img src={USDC}></img>
-                        <img src={zKronos} id="l"></img>
                         <h1>POHM-USDC LP</h1>
                         
                     </div>

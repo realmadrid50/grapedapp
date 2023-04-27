@@ -29,7 +29,7 @@
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
-    font-size: max(calc(14 * var(--res)), 11px);
+    font-size: max(calc(13 * var(--res)), 9px);
     font-weight: 700;
     width: max(calc(122 * var(--res)), 150px);
     min-width: 80px;

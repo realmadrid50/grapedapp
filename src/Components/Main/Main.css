@@ -19,7 +19,7 @@
     width: 90%;
     height: 20%;
 
-    background: rgba(36,39,41,.1);
+    background: rgba(124, 129, 133, 0.1);
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
     border-radius: 10px;
@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     width: 33%;
-    color: #fff1e5;
+    color: wheat;
     gap: 1vmin;
 }
 
@@ -59,14 +59,14 @@
 
 .card-bubble{
     width: 48%;
-    background: rgba(36,39,41,.1);
+    background: rgba(124, 129, 133, 0.1);
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
     border-radius: 10px;
     height: 100%;
     display: flex;
     justify-content: center;
-    color: #fff1e5;
+    color: wheat;
     align-items: center;
     gap: 1vmin;
     flex-direction: column;
@@ -85,14 +85,14 @@
 
 .card-tetris{
     width: 30%;
-    background: rgba(36,39,41,.1);
+    background: rgba(124, 129, 133, 0.1);
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
     border-radius: 10px;
     height: 100%;
     display: flex;
     justify-content: center;
-    color: #fff1e5;
+    color: wheat;
     align-items: center;
     gap: 1vmin;
     flex-direction: column;

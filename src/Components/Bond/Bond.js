@@ -27,7 +27,7 @@ function Bond(){
                             <h2>$0</h2>
                         </div>
                         <div className="bubble-one">
-                            <h1>LEVIA Price</h1>
+                            <h1>POHM Price</h1>
                             <h2>$0</h2>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ function Bond(){
 
                         <div className='case1'>
 
-                            <h2>LEVIA-USDC LP</h2>
+                            <h2>POHM-USDC LP</h2>
 
                         </div>
 
@@ -104,7 +104,7 @@ function Bond(){
 
                         <div className='case1'>
 
-                            <h2>LEVIA-USDT LP</h2>
+                            <h2>POHM-USDT LP</h2>
 
                         </div>
 
@@ -125,7 +125,7 @@ function Bond(){
 
                         <div className='case1'>
 
-                            <h2>LEVIA-FRAX LP</h2>
+                            <h2>POHM-FRAX LP</h2>
 
                         </div>
 

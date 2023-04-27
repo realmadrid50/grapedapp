@@ -19,7 +19,7 @@ function Discount2(){
                     <div className="lp-title">
                         <img src={USDC}></img>
                         <img src={zKronos} id="l"></img>
-                        <h1>zKronos-USDC LP</h1>
+                        <h1>POHM-USDC LP</h1>
                         
                     </div>
 
@@ -29,7 +29,7 @@ function Discount2(){
                             <h2>USDC</h2>
                         </div>
                         <div className="bubble-one">
-                            <h1>zKronos Price</h1>
+                            <h1>POHM Price</h1>
                             <h2>$0</h2>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ function Discount2(){
                         </div>
                         <div className="row-element">
                             <h5>Your Will Get</h5>
-                            <h5>0 zKronos</h5>
+                            <h5>0 POHM</h5>
                         </div>
                         <div className="row-element">
                             <h5>Vesting Term</h5>
@@ -72,7 +72,7 @@ function Discount2(){
                         </div>
                         <div className="row-element">
                             <h5>Minimum Purchase</h5>
-                            <h5>0 zKronos</h5>
+                            <h5>0 POHM</h5>
                         </div>
                         <div className="row-element">
                             <h5>ROI 5-Day Rate</h5>

@@ -27,7 +27,7 @@ function Header(){
     return (
         <div className="top-header">
             <button onClick={connectToMetamask}>
-            {connected ? "Connected" : "Connect"}
+            {connected ? "Connected" : "Connect Wallet"}
             </button>
       </div>
     );

@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     width: 33%;
-    color: wheat;
+    color: rgb(221, 179, 245);
     gap: 1vmin;
 }
 
@@ -66,7 +66,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    color: wheat;
+    color: rgb(221, 179, 245);
     align-items: center;
     gap: 1vmin;
     flex-direction: column;
@@ -92,7 +92,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    color: wheat;
+    color: rgb(221, 179, 245);
     align-items: center;
     gap: 1vmin;
     flex-direction: column;

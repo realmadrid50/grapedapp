@@ -8,7 +8,7 @@ const useConnection = () => {
       try {
         // Check if the user is already connected to the Arbitrum network
         const providerChainId = await window.ethereum.request({ method: 'eth_chainId' });
-        if (providerChainId === '0xa4b1') {
+        if (providerChainId === '0x2105') {
           setConnected(true);
         }
       } catch (error) {
@@ -22,7 +22,7 @@ const useConnection = () => {
     try {
       // Check if the user is already connected to the Arbitrum network
       const providerChainId = await window.ethereum.request({ method: 'eth_chainId' });
-      if (providerChainId === '0xa4b1') {
+      if (providerChainId === '0x2105') {
         console.log('Already connected to the Arbitrum network.');
         setConnected(true);
         return;
@@ -32,15 +32,15 @@ const useConnection = () => {
       await window.ethereum.request({
         method: 'wallet_addEthereumChain',
         params: [{
-          chainId: '0xa4b1',
-          chainName: 'Arbitrum',
+          chainId: '0x2105',  // Chain ID for Base Mainnet
+          chainName: 'Base Mainnet',
           nativeCurrency: {
             name: 'Ethereum',
             symbol: 'ETH',
             decimals: 18
           },
-          rpcUrls: ['https://arb1.arbitrum.io/rpc'],
-          blockExplorerUrls: ['https://arbiscan.io/']
+          rpcUrls: ['https://mainnet.base.org'],  // RPC Endpoint for Base Mainnet
+          blockExplorerUrls: ['https://basescan.org/']  // Block Explorer for Base Mainnet
         }]
       });
 
@@ -48,10 +48,10 @@ const useConnection = () => {
       const chainId = await window.ethereum.request({ method: 'eth_chainId' });
 
       // Switch to the Arbitrum network if the provider is on the correct chain
-      if (chainId === '0xa4b1') {
+      if (chainId === '0x2105') {
         await window.ethereum.request({
           method: 'wallet_switchEthereumChain',
-          params: [{ chainId: '0xa4b1' }]
+          params: [{ chainId: '0x2105' }]
         });
 
         // Request permission to access the user's Metamask account
@@ -61,7 +61,7 @@ const useConnection = () => {
         // Update the connection state
         setConnected(true);
       } else {
-        console.error(`Provider chain ID (${chainId}) does not match expected chain ID (0xa4b1).`);
+        console.error(`Provider chain ID (${chainId}) does not match expected chain ID (0x2105).`);
       }
     } catch (error) {
       console.error(error);

@@ -47,7 +47,7 @@ function Navbar() {
                         <a href="#">USDC</a>
                     </li>
                     <li>
-                        <Link to="/usdc_snow_lp">POHM-USDC LP</Link>
+                        <Link to="/usdc_snow_lp">GRAPE-USDC LP</Link>
 
                     </li>
                 </ul>   
